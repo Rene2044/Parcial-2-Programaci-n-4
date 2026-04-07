@@ -17,7 +17,7 @@ const navbarHTML = `
         <div class="hidden md:block ml-10">
           <div class="flex items-baseline space-x-4">
             <a href="#" class="bg-white/20 text-white px-3 py-2 rounded-md text-sm font-medium transition hover:bg-white/30" aria-current="page">Inicio</a>
-            <a href="#" class="text-white/80 hover:text-white hover:bg-white/10 px-3 py-2 rounded-md text-sm font-medium transition">Historial</a>
+            <a href="#" class="text-white/80 hover:text-white hover:bg-white/10 px-3 py-2 rounded-md text-sm font-medium transition">Mapa</a>
             <a href="#" class="text-white/80 hover:text-white hover:bg-white/10 px-3 py-2 rounded-md text-sm font-medium transition">Configuración</a>
           </div>
         </div>
@@ -47,7 +47,7 @@ const navbarHTML = `
   <div id="mobile-menu" class="md:hidden max-h-0 overflow-hidden transition-all duration-300 ease-in-out bg-black/10 backdrop-blur-sm">
     <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 border-t border-white/10">
       <a href="#" class="bg-white/20 text-white block px-3 py-2 rounded-md text-base font-medium">Inicio</a>
-      <a href="#" class="text-white/80 hover:text-white hover:bg-white/10 block px-3 py-2 rounded-md text-base font-medium transition">Historial</a>
+      <a href="#" class="text-white/80 hover:text-white hover:bg-white/10 block px-3 py-2 rounded-md text-base font-medium transition">Mapa</a>
       <a href="#" class="text-white/80 hover:text-white hover:bg-white/10 block px-3 py-2 rounded-md text-base font-medium transition">Configuración</a>
       <button class="w-full mt-3 bg-yellow-400 hover:bg-yellow-500 text-gray-900 px-4 py-2 rounded-md text-sm font-semibold flex items-center justify-center gap-1.5 transition shadow-md">
             Ubicación Actual
