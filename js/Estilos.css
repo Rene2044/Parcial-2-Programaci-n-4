@@ -6,12 +6,11 @@ body {
 }
 
 .weather-bg {
-    background: linear-gradient(to bottom, #4facfe 0%, #00f2fe 100%);
+    background: linear-gradient(to bottom, #092bc4 0%, #14bec7 100%);
     min-height: 100vh;
-    background-attachment: fixed; /* Mantiene el fondo fijo al hacer scroll */
+    background-attachment: fixed; 
 }
 
-/* Opcional: Estilo para la scrollbar del pronóstico */
 #forecast-container::-webkit-scrollbar {
     height: 4px;
 }
